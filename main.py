@@ -19,7 +19,7 @@ bot = Client(
 
 #======≠===============================================================
 keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton(text="Join free Study channel", url=f"https://t.me/+iC8aN7xe-cszMTBl")")],
+        [InlineKeyboardButton(text="Join free Study channel", url=f"https://t.me/+iC8aN7xe-cszMTBl")],
 ])
 #======≠===============================================================
 image_urls = [
