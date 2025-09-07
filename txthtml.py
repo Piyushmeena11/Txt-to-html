@@ -257,7 +257,7 @@ def generate_html(file_name, videos, pdfs, others):
 <body>
     <div class="header">
         {file_name_without_extension}
-        <div class="subheading">📥 <b>Extracted By : {CREDIT}</b></div>
+        <div class="subheading">📥 <b>Extracted By : <a href='https://t.me/hellospecial'><b>『SŦɌȺNǤɆ』<b/></a></b></div>
     </div>
 
     <div id="video-player">
