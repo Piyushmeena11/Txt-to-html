@@ -257,7 +257,7 @@ def generate_html(file_name, videos, pdfs, others):
 <body>
     <div class="header">
         {file_name_without_extension}
-        <div class="subheading">✳️ <b>Join Backup Channel : <a href='https://t.me/hellospecial'><b>『J̸O̸I̸N̸ C̸H̸A̸N̸N̸E̸L̸』<b/></a></b></div>
+        <div class="subheading">✳️ <b>Join Free Course Channel : <a href='https://t.me/+KPzLu1rDwBwzYjNl'><b>『J̸O̸I̸N̸ C̸H̸A̸N̸N̸E̸L̸』<b/></a></b></div>
     </div>
 
     <div id="video-player">
