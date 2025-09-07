@@ -40,7 +40,7 @@ async def start_command(bot: Client, message: Message):
         f"𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!\n\n"
         f"➠ 𝐈 𝐚𝐦 .𝐭𝐱𝐭 𝐭𝐨 .𝐡𝐭𝐦𝐥 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐫 𝐁𝐨𝐭\n\n"
         f"➠ Send One or More .txt files! & wait for 1min \n\n"
-        f"➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : <a href='https://t.me/hellospecial'><b>strange<b/></a> 🦁"
+        f"➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : <a href='https://t.me/hellospecial'>『SŦɌȺNǤɆ』</a> 🦁"
     )
     await bot.send_photo(
         chat_id=message.chat.id,
@@ -104,7 +104,7 @@ async def handle_file(client: Client, message: Message):
     with open(html_file_path, "w") as f:
         f.write(html_content)
 
-    await message.reply_document(document=html_file_path, caption=f"✅ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐃𝐨𝐧𝐞!\n<blockquote><b>`{file_name}`</b></blockquote>\n❖** Open in Chrome.**❖\n\n🌟**Extracted By :** <a href='https://t.me/hellospecial'><b>strange<b/></a>")
+    await message.reply_document(document=html_file_path, caption=f"✅ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐃𝐨𝐧𝐞!\n<blockquote><b>`{file_name}`</b></blockquote>\n❖** Open in Chrome.**❖\n\n🌟**Extracted By :** <a href='https://t.me/hellospecial'>『SŦɌȺNǤɆ』</a>")
     
     os.remove(file_path)
     os.remove(html_file_path)
@@ -115,7 +115,7 @@ def notify_owner():
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     data = {
         "chat_id": OWNER,
-        "text": "MALIK AADHESH DE ✅"
+        "text": "𝗠𝗮𝗹𝗶𝗸 𝗮𝗮𝗱𝗵𝗲𝘀𝗵 𝗱𝗲 𝗺𝗲 𝘁𝗮𝗶𝘆𝗮𝗿 𝗵𝘂 ✅"
     }
     requests.post(url, data=data)
 
