@@ -40,7 +40,8 @@ async def start_command(bot: Client, message: Message):
         f"𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!\n\n"
         f"➠ 𝐈 𝐚𝐦 .𝐭𝐱𝐭 𝐭𝐨 .𝐡𝐭𝐦𝐥 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐫 𝐁𝐨𝐭\n\n"
         f"➠ Send One or More .txt files! & wait for 1min \n\n"
-        f"➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : <a href='https://t.me/hellospecial'>『SŦɌȺNǤɆ』</a> 🦁"
+        f"➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : <a href='https://t.me/Myself_Strange'>『SŦɌȺNǤɆ』</a> 🦁"
+        f"➠🌐 ᴊᴏɪɴ ꜰʀᴇᴇ ᴄᴏᴜʀꜱᴇ : <a href='https://t.me/hellospecial'>『ɈØƗN NØW』</a>✳️ !\n\n"
     )
     await bot.send_photo(
         chat_id=message.chat.id,
