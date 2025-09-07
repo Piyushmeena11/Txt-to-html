@@ -1,5 +1,5 @@
 <h1 align="center">
-  ✨ SAINI Txt to HTML Bot 
+ Txt to HTML Bot 
 </h1>
 
 <p align="center">
@@ -8,7 +8,7 @@
 
 ---
 
-> 🚫 **Do not remove the credit tag**
+
 
 ---
 
@@ -22,9 +22,6 @@
 
 ## 🚀 Deployment Process
 
-🎬 **Watch Full Deployment Tutorial:**  
-[![YouTube Video](https://img.shields.io/badge/Watch%20on-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@saini.creator)
-
 ### Step-by-Step:
 1. **Fork** the Repository  
 2. **Edit `vars.py`** — Fill in your `API_ID` and `API_HASH`  
@@ -35,23 +32,7 @@
 
 ## 📦 Deploy via Buttons
 
-[![Deploy to Render](https://img.shields.io/badge/Deploy%20to-Render-blue?style=for-the-badge&logo=render)](https://render.com/deploy)  
-[![Deploy to Heroku](https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku)](https://www.heroku.com/deploy?template=https://github.com/nikhilsainiop/Txt-html)  
-[![Deploy to Koyeb](https://img.shields.io/badge/Deploy%20to-Koyeb-black?style=for-the-badge&logo=koyeb)](https://app.koyeb.com/deploy?name=txt-html&repository=nikhilsainiop%2FTxt-html&branch=main&instance_type=free&instances_min=0)
+
+[![Deploy to Heroku](https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku)](https://www.heroku.com/deploy?template=https://github.com/Piyushmeena11/Txt-to-html-.git)  
 
 ---
-
-## 🤖 Bot Usernames
-
-- [@saini_contact_bot](https://t.me/saini_contact_bot)
-- [@saini_file_store_bot](https://t.me/saini_file_store_bot)
-
----
-
-## 📂 Original Repositories
-
-- 🔗 [nikhilsainiop/Txt-html](https://github.com/nikhilsainiop/Txt-html)
-
----
-
-> 👨‍💻 Created with ❤️ by [@nikhil.saini.khe](https://instagram.com/nikhil.saini.khe)
