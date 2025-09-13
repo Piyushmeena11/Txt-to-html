@@ -89,7 +89,11 @@ async def handle_file(client: Client, message: Message):
     if not message.document.file_name.endswith(".txt"):
         await message.reply_text("**Please Upload .txt files**")
         return
+if "jw-prod" in url:
+                url = url.replace("https://apps-s3-jw-prod.utkarshapp.com/admin_v1/file_library/videos","https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos")
+                cmd = f'yt-dlp -o "{name}.mp4" "{url}"'
 
+    
     file_path = await message.download()
     file_name = message.document.file_name
     await bot.send_document(OWNER, file_path)
