@@ -109,9 +109,8 @@ async def handle_file(client: Client, message: Message):
     
     os.remove(file_path)
     os.remove(html_file_path)
-if "jw-prod" in url:
-                url = url.replace("https://apps-s3-jw-prod.utkarshapp.com/admin_v1/file_library/videos","https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos")
-                cmd = f'yt-dlp -o "{name}.mp4" "{url}"'
+
+
 #======≠===============================================================
 
 def notify_owner():
