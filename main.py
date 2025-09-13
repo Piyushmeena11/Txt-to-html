@@ -88,11 +88,7 @@ async def info(bot: Client, update: Message):
 async def handle_file(client: Client, message: Message):
     if not message.document.file_name.endswith(".txt"):
         await message.reply_text("**Please Upload .txt files**")
-        return
-if "jw-prod" in url:
-                url = url.replace("https://apps-s3-jw-prod.utkarshapp.com/admin_v1/file_library/videos","https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos")
-                cmd = f'yt-dlp -o "{name}.mp4" "{url}"'
-
+        return 
     
     file_path = await message.download()
     file_name = message.document.file_name
@@ -113,7 +109,9 @@ if "jw-prod" in url:
     
     os.remove(file_path)
     os.remove(html_file_path)
-
+if "jw-prod" in url:
+                url = url.replace("https://apps-s3-jw-prod.utkarshapp.com/admin_v1/file_library/videos","https://d1q5ugnejk3zoi.cloudfront.net/ut-production-jw/admin_v1/file_library/videos")
+                cmd = f'yt-dlp -o "{name}.mp4" "{url}"'
 #======≠===============================================================
 
 def notify_owner():
